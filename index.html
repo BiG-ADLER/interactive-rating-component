@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Rating state start -->
+
+  <div class="main">
+    <div class="vote">
+      <div class="svg" >
+        <object class="mainsvg" data="./images/icon-star.svg" > </object>
+      </div>
+      <h3>How did we do?</h3>
+
+      <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+
+      <div class="container">
+        <div class="rate"><a class="1" >1</a></div>
+        <div class="rate"><a class="2" >2</a></div>
+        <div class="rate"><a class="3" >3</a></div>
+        <div class="rate"><a class="4" >4</a></div>
+        <div class="rate"><a class="5" >5</a></div>
+      </div>
+
+      <button id="button" type="button" >Submit</button>
+    </div>
+    <div class="submit" style="display: none;">
+      <div class="submitSvg" >
+        <object class="mainSubmitSvg" data="./images/illustration-thank-you.svg" > </object>
+      </div>
+      
+      <div class="rateDiv"><span class="span1">You selected <span id="rate" class="rate">0</span> out of 5</span></div>
+      <h1>Thank you!</h1>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/BiG-ADLER/">Arman Mohebrad</a>.
+    </div>
+  </div>
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  <!-- Thank you state end -->
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
